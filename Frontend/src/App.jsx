@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import New from './component/New'
 import Index from './component/Index'
 import Dashboard from './component/Dashboard'
+import GetSingle from './component/GetSingle'
 
 
 
@@ -17,6 +18,8 @@ function App() {
           <Route path='/dash' element={<Dashboard/>} />
 
           <Route path='/index' element={<Index />} />
+          <Route path='/getSingle/:id' element={<GetSingle />} />
+
 
 
 
