@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import axios from "axios"
+
 
 function New() {
     const [dataa, setDataa] = useState()
@@ -9,9 +10,9 @@ function New() {
             .then((res) => {
                 // console.log(res);
                 setDataa(res.data.body)
-                console.log(res, "tttttttttttttttttttt");
+                // console.log(res, "tttttttttttttttttttt");
             }).catch((error) => {
-                console.log(error, "error");
+                // console.log(error, "error");
             })
     }
     useEffect(() => {

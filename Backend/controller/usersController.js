@@ -33,7 +33,7 @@ module.exports = {
         } catch (error) {
             // console.log(error, "error");
             return res.json({
-                message:"error not get users"
+                message: "error not get users"
             })
         }
     },
@@ -70,7 +70,7 @@ module.exports = {
                 body: updateUser
             })
         } catch (error) {
-            console.log(error, "error")
+            // console.log(error, "error")
             return res.json({
                 message: "error not updated",
                 status: 400,

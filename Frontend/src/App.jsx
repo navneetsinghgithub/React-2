@@ -5,6 +5,8 @@ import New from './component/New'
 import Index from './component/Index'
 import Dashboard from './component/Dashboard'
 import GetSingle from './component/GetSingle'
+import Update from './component/Update'
+
 
 
 
@@ -14,11 +16,12 @@ function App() {
     <>
       <Routes>
 
-          <Route path='/new' element={<New />} />
-          <Route path='/dash' element={<Dashboard/>} />
+        <Route path='/new' element={<New />} />
+        <Route path='/dash' element={<Dashboard />} />
 
-          <Route path='/index' element={<Index />} />
-          <Route path='/getSingle/:id' element={<GetSingle />} />
+        <Route path='/index' element={<Index />} />
+        <Route path='/getSingle/:id' element={<GetSingle />} />
+        <Route path='/Update/:id' element={<Update />} />
 
 
 
