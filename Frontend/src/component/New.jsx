@@ -41,6 +41,8 @@ function New() {
                                 <td>{dataa?.email}</td>
                                 <td>{dataa?.phone}</td>
                                 <td><Link to={`/getSingle/${dataa?._id}`}><button>Click</button></Link></td>
+                                <td><Link to={`/Update/${dataa?._id}`}><button>Update</button></Link></td>
+
 
                             </tr>
                         ))}
