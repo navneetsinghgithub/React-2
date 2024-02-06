@@ -36,6 +36,8 @@ function Update() {
                 nav("/get")
             }).catch((error) => {
                 console.log(error, "error");
+                console.log(error, "error");
+
             })
         } catch (error) {
             console.log(error, "error");
