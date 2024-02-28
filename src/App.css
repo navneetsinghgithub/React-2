@@ -1,0 +1,117 @@
+/* /* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: black;
+}
+
+:root {
+  --grey-color: #7f8c8d;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+} */
+
+/* menu-link-active-colors: var(--primary-color), var(--info-color),
+  var(--success-color), var(--warning-color), var(--danger-color); */
+
+/* .menu-hover-fill {
+  li {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: -1rem;
+      width: 0.25rem;
+      height: 100%;
+      background: var(--menu-link-active-color);
+      transition: 0.6s;
+    }
+
+    a {
+      --menu-link-color: var(--grey-color);
+      position: relative;
+      background: linear-gradient(var(--menu-link-active-color) 0 100%) left / 0
+        no-repeat;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      transition: background-size 0.45s 0.04s;
+
+      &::before {
+        position: absolute;
+        content: attr(data-text);
+        z-index: -1;
+        color: var(--menu-link-color);
+      }
+    }
+
+    @for $i from 1 through length($menu-link-active-colors) {
+      &:nth-child(#{$i}) {
+        --menu-link-active-color: #{nth($menu-link-active-colors, $i)};
+      }
+    }
+
+    &:hover {
+      &::before {
+        left: calc(100% + 1rem);
+      }
+
+      a {
+        background-size: 100%;
+      }
+    }
+  }
+} */ 
